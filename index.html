@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Your Personal Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div id="app-container">
+        <!-- SIDEBAR FOR BOARD NAVIGATION -->
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <h1 class="logo">TaskFlow</h1>
+            </div>
+            <nav class="board-nav">
+                <h2><i class="fa-solid fa-table-columns"></i> My Boards</h2>
+                <ul id="board-list">
+                    <!-- Board links will be dynamically inserted here -->
+                </ul>
+                <button id="add-board-btn-sidebar" class="sidebar-btn"><i class="fa-solid fa-plus"></i> New Board</button>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <div id="main-content">
+            <!-- TOP NAVIGATION BAR -->
+            <header id="top-nav">
+                <div class="nav-left">
+                    <h2 id="board-title"></h2>
+                </div>
+                <div class="nav-right">
+                    <div class="search-container">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" id="search-input" placeholder="Search tasks...">
+                    </div>
+                    <button id="add-list-btn" class="action-btn"><i class="fa-solid fa-plus"></i> Add List</button>
+                    <div class="profile-menu">
+                        <i class="fa-solid fa-user-circle"></i>
+                    </div>
+                </div>
+            </header>
+
+            <!-- BOARD VIEW (LISTS AND CARDS) -->
+            <main id="board-view">
+                <!-- Lists will be dynamically inserted here -->
+            </main>
+        </div>
+    </div>
+
+    <!-- MODAL CONTAINER -->
+    <div id="modal-container" class="hidden">
+        <div id="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Modal Title</h3>
+                <button id="close-modal-btn">&times;</button>
+            </div>
+            <div id="modal-body">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
