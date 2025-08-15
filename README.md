@@ -3,6 +3,8 @@ A modern, offline-first, Trello-like task management app built entirely with HTM
 TaskFlow is a lightweight and fully functional Kanban board application that runs completely in your web browser. It uses LocalStorage to save all your data, meaning your boards, lists, and tasks persist between sessions without needing a server or an internet connection.
 
 ScreenShots:
+<img width="1911" height="854" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/8286d01a-796f-4a04-819a-ea6651421330" /><hr>
+<img width="1869" height="789" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f91bd6b9-e445-4fda-b5b7-4571bb6cb8e8" />
 
 
 ✨ Key Features
